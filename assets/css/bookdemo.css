@@ -1,0 +1,131 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+#demo .modal-content{
+    background: transparent;
+}
+#demo-info p{
+line-height:30px;
+}
+#demo-form .input-box{
+    display:block;
+    position:relative;
+    margin-bottom:30px;
+}
+#demo-form  .input-box input{
+    width:100%;
+    border:none;
+    border-bottom:1px solid white;
+    background: transparent;
+    outline:none;
+    color:white;
+    font-size:20px;
+}
+#demo-form  .input-box input:focus~label,
+#demo-form  .input-box input:valid~label{
+transform:translateY(-20px);
+color:rgb(27, 135, 27);
+}
+#demo-form  .input-box label{
+    position:absolute;
+    top:-5px;
+    left:0px;
+    transition: all 0.8s ease-in-out;
+    font-size:20px;
+}
+#demo-form .select-box  select{
+    width:90%;
+    border-radius:20px;
+}
+/* #submit-btn button{
+    border:2px solid green;
+    animation-name:move-border;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    @keyframes move-border{
+        from{
+            transform:translateY(-10px);
+        }
+        to{
+            transform:translatex(30px);
+        }
+    }
+} */
+
+
+
+
+#submit-btn button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: transparent #1c751d;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+#submit-btn button:hover{
+    background-color: #3a9f3b;
+    color:white;
+    box-shadow:2px 2px 2px 1px green;
+}
+#submit-btn button span:nth-child(1) {
+  
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #3a9f3b);
+    animation: btn-anim1 2s linear infinite;
+}
+#submit-btn button span:nth-child(2) {
+    /* width: 100%;
+    height: 2px;
+    border:1px solid red; */
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #3a9f3b);
+    animation: btn-anim2 2s linear infinite;
+    animation-delay: .50s;
+}
+#submit-btn button span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #3a9f3b);
+    animation: btn-anim3 2s linear infinite;
+    animation-delay: 1s;
+    /* width: 100%;
+    height: 2px;
+    border:1px solid red; */
+}
+#submit-btn button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #3a9f3b);
+    animation: btn-anim4 2s linear infinite;
+    animation-delay: 1.5s;
+    /* width: 100%;
+    height: 2px;
+    border:1px solid red; */
+}
+#submit-btn  button span {
+    position: absolute;
+    display: block;
+}

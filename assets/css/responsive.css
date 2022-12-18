@@ -1,0 +1,195 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:480px) {
+  /* tophead */
+ 
+  /* navbar start */
+  .navbar {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  }
+
+  /* navbar end */
+  /* carousel start */
+  #carousel #stopwatch {
+    position :absolute;
+    top:50px;
+    left:20%;
+    right:10%;
+     z-index:20;
+   }#carousel  #stopwatch{
+    position:relative;
+    top:0px;
+    left:13%;
+     z-index:20;
+   }
+   #carousel #captions #cap{
+    font-weight:normal;
+    color:white;
+    font-size:17px;
+   }
+   #carousel #captions p{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 0px;
+    padding-top:10px;
+   }
+   #carousel .hire-expert-btn{
+  border-radius: 20px;
+  /* padding:10px; */
+  width:130px;
+  height:40px;
+  font-weight: 500;
+  margin-top: 5px;
+   }
+   /* carousel end */
+}
+
+@media screen and (max-width:768px) {
+
+  /* tophead */
+  #tophead {
+    padding-top: 5px;
+  }
+  
+  .wrapper1 .topheadbackground #contact-details span {
+    font-size: 10px;
+  }
+
+  /* navbar start */
+  .navbar {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  }
+
+  /* navbar end*/
+ 
+ /* carousel start */
+ #carousel  #stopwatch {
+ position:absolute;
+ top:30%;
+ }
+ #carousel #captions #cap{
+  font-weight:normal;
+  color:white;
+  font-size:17px;
+ }
+ #carousel #captions p{
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 0px;
+  padding-top:10px;
+ }
+ #carousel .hire-expert-btn{
+border-radius: 20px;
+/* padding:10px; */
+width:130px;
+height:40px;
+font-weight: 500;
+margin-top: 5px;
+ }
+  /* carousel end */
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+  /* tophead */
+  #tophead {
+    padding-top: 10px;
+  }
+
+  .wrapper1 .topheadbackground #icons ul li a {
+    font-size: 13px;
+  }
+
+  .wrapper1 .topheadbackground #contact-details span {
+    font-size: 10px;
+  }
+
+  /* navbar */
+  .navbar {
+    position: sticky;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .watch #captions {
+    margin-top: 0px;
+    padding-left: 30px;
+  }
+
+  .watch #captions p {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .watch #captions h1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .watch .hire-expert-btn {
+    width: 120px;
+    height: 40px;
+    font-weight: 200;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .wrapper1 .topheadbackground #buttons .btn-success {
+    width: 70px;
+    line-height: 5px;
+    font-size: 10px;
+  }
+
+  /* navbar */
+  .navbar {
+    margin-top: 30px;
+  }
+
+  /* watch animation start */
+  .watch span {
+    padding-top: 20px;
+    line-height: 20px;
+    ;
+  }
+
+  .watch #captions {
+    margin-top: 0px;
+    padding-left: 30px;
+  }
+
+  .watch #captions p {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .watch #captions h1 {
+    font-size: 25px;
+    line-height: 16px;
+    letter-spacing: normal;
+  }
+
+  /* watch animation end */
+
+}
+
+@media (min-width:1024) and (max-width:1200px) {
+  .wrapper1 .topheadbackground #contact-details span {
+    font-size: 10px;
+  }
+
+  #tophead {
+    padding-top: 10px;
+  }
+}

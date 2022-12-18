@@ -1,0 +1,80 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.breadcrumbsection{
+    position:absolute;
+    top:40%;
+    left:40%;
+}
+/* reserach overview start */
+#research-overview{
+    padding:20px 0px;
+}
+#research-overview p{
+    position: relative;
+    line-height:30px;
+    font-size:25px;
+    font-weight:600;
+}
+#research-overview .overview::after{
+    content:"";
+    position:absolute;
+    display:block;
+    background: green;
+    width:40px;
+    height:3px;
+    bottom:-10px;
+    left:calc(50% - 30px);
+    
+}
+#overview-info p{
+   font-size:15px;
+   font-weight:500;
+   
+}
+#research-overview .information{
+    border:1px solid rgb(195, 190, 190);
+    border-radius:20px;
+    transition:all 0.5s ease-in-out;
+    padding:10px;
+}
+.research-image .information:hover{
+    transform:translateY(-10px);
+    border-bottom:3px solid green !important;
+}
+#research-overview .info p{
+font-size:15px;
+text-align:left;
+padding:10px;
+line-height:22px;
+}
+#research-overview img:hover{
+transform:translateY(-10px);
+transition:all 0.5s ease-in-out;
+border-bottom:3px solid green;
+}
+.research-image{
+height:200px;
+}
+
+/* reserach overview start */
+/* trading principles start  */
+#Trade-principle{
+    padding:30px 0px;
+}
+#Trade-principle h3{
+    position: relative;
+}
+#Trade-principle h3::after{
+  content:"";
+  background:green;
+  width:60px;
+  height:3px;
+  position:absolute;
+  display:block;
+  bottom:-20px;
+  left:calc(50% - 30px);
+}
+/* trading principles end */

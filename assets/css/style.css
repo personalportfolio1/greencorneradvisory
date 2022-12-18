@@ -1,0 +1,217 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:0px;
+}
+/* tophead start */
+#tophead{
+
+  position: absolute;
+  top:0px;
+  right:0px;
+  left:0px;
+  z-index:9;
+}
+.wrapper1 .topheadbackground #contact-details span{
+font-size: 15px;
+display:inline-block;
+}
+.wrapper1 .topheadbackground  #icons ul li a{
+  font-size: 14px;
+}
+.wrapper1 .topheadbackground #buttons .btn-success{
+border-radius: 20px;
+width:85px;
+height:30px;
+line-height: 17px;
+}
+  #buttons .btn-secondary{
+width:60px;
+border-radius: 20px;
+height:30px;
+margin-left:5px;
+margin-right:5px;
+line-height: 15px;
+}
+.wrapper1 ul li a{
+  color:green;
+  font-size:20px;
+}
+#tophead{
+  height:auto;
+ padding-top:15px;
+    box-shadow:0px 0px 3px 3px;
+    border-radius:0px 0px 30px 30px;
+    /* border-radius:20px 0px 0px 20px; */
+    /* border-radius: 20px 20px 0px 0px; */
+    /* border-radius: 20px 0px 20px 0px; */
+    background-color: rgb(246, 246, 239);
+}
+/* tophead end */
+/* navbar start */
+.navbar{
+  position:relative;
+  z-index:7;
+  top:40px;
+}
+#mynavbar .navbar .navbar-toggler:focus{
+   box-shadow:none;
+}
+.navbar .nav-item .nav-link{
+padding-right:30px;
+color:white;
+font-weight: bold;
+position: relative;
+}
+
+.dropdown-menu{
+  box-shadow: 0px 7px 0px 0px rgb(108, 174, 108);
+  border-radius:10px;
+  width:240px;
+}
+.dropdown-menu .dropdown-item{
+  padding-top:10px;
+  /* display: none; */
+
+}
+.dropdown-menu .dropdown-item:hover{
+  background-color: rgb(116, 114, 114);
+  color:white;
+}
+.navbar .collapse .navbar-nav #more:hover .dropdown-menu{
+display: block;
+}
+#book-demo{
+  border-radius:20px;
+  color:white;
+  padding-left:20px;
+}
+#mynavbar .navbar-nav .nav-item:hover .nav-link::after{
+  position:absolute;
+  content:'';
+  bottom:0px;
+  left:0px;
+  right:0px;
+  width:100%;
+  height:0.8px;
+  background:white;
+}
+/* navbar end*/
+/* carouser start */
+#carousel-div{
+  position: absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  right:0px;
+}
+#carousel-div caption{
+  position:relative;
+  z-index:200;
+  /* top:3; */
+}
+#carousel-div .carousel-inner p{
+  color:red;
+  font-size:20px;
+}
+#carousel-div h1{
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 55px;;
+}
+#carousel-div .carousel-control-prev,
+.carousel-control-next{
+width:50px;
+height:50px;
+border:1px solid white;
+opacity:0.9;
+border-radius:50%;
+top:calc(50% - 25px);
+}
+#carousel-div .carousel-control-prev{
+  left:5%;
+}
+#carousel-div .carousel-control-next{
+  right:5%;
+}
+
+  #watch-tanslate {
+  /* position :relative;
+  top:100px;
+  /* left:10%;
+  right:30%; */
+  position:relative;
+   z-index:200; 
+ }
+ #carousel #captions #cap{
+  font-weight:bold;
+  color:white;
+  font-size:20px;
+ }
+ #carousel #captions p{
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 50px;
+ }
+ #carousel .hire-expert-btn{
+  background-color: rgb(35, 141, 35);
+color:white;
+border-radius: 30px;
+/* padding:10px; */
+width:180px;
+height:50px;
+font-weight: 500;
+margin-top: 20px;
+ }
+ #carousel .stop-watch img{
+  animation:animate-watch;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count:infinite ;
+  animation-direction: alternate;
+  transition: all 0.5s ease-in-out;
+   }
+   @keyframes animate-watch{
+    from{
+      transform:translateY(0px);
+    }
+    to{
+      transform:translateY(-15px);
+    }
+   }
+
+/* carouser end */
+
+
+/* scrollbar start */
+ marquee{
+  box-shadow: 0px 0px 1px 0px;
+}
+/* scrollbar end */
+
+/* aboutus start */
+/* #aboutus .about-us{
+  position:relative;
+} */
+#aboutus{
+  position: relative;
+  top:0px;
+
+}
+#aboutus .about-us h4:after{
+  position: absolute;
+content:'';
+width:10%;
+height: 0.8px;
+background-color: green;
+bottom:0px;
+left:0px;
+right:0px;
+}
+#aboutus #mission,
+#aboutus #vision{
+  box-shadow:0px 3px 0px 0px;
+background-color: rgb(206, 236, 206);
+}
+
+/* aboutus end */

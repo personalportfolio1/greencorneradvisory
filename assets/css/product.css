@@ -1,0 +1,32 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:0px;
+}
+/* product section start */
+#products{
+    padding:30px 0px;
+}
+#products #product-tabs{
+    z-index:10;
+}
+#products h2{
+    position: relative;
+}
+#products h2::after{
+content:"";
+position:absolute;
+display: block;
+background: green;
+width:50px;
+height:3px;
+bottom:-10px;
+left:calc(50% - 30px);
+}
+#products .prizing-button .button{
+width:120px;
+border:1px solid green;
+}
+
+
+/* product section end */

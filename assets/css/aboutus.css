@@ -1,0 +1,41 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.breadcrumbsection{
+    position:absolute;
+    top:40%;
+    left:40%;
+}
+/* aboutus start */
+#aboutus .info p{
+    font-size:14px;
+    font-weight: 500;
+}
+/* aboutus end */
+
+/* about-company start */
+.about-company{
+    padding:30px 0px;
+}
+.about-company .company-shortinfo:hover{
+border-bottom:2px solid green;
+transform:translateY(-10px);
+transition:all 0.7s ease-in-out;
+}
+.about-company .icon i{
+    color:green;
+    font-size: 30px;
+    /* width:40%;;
+    height:100px; */
+}
+
+/* about-company end*/
+/* @media screen and (max-width:768px)
+{
+    .breadcrumbsection{
+        top:5%;
+        left:40%;
+    }
+} */
