@@ -7,9 +7,10 @@
 #products{
     padding:30px 0px;
 }
-#products #product-tabs{
+
+/* #products #product-tabs{
     z-index:10;
-}
+} */
 #products h2{
     position: relative;
 }

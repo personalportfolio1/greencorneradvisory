@@ -1,0 +1,48 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+#kyc-form{
+    padding:30px 0px;
+}
+#kyc-form .title{
+    position: relative;
+}
+#kyc-form h3:after{
+    content:"";
+    position: absolute;
+    display:block;
+    background: rgb(32, 133, 32);
+    width:50px;
+    height:4px;
+    bottom:-10px;
+    left:calc(50% - 30px);
+
+}
+#kyc-form .form-group{
+    margin-bottom:20px;
+}
+#kyc-form .form-group input,
+#kyc-form .form-group select{
+    border-radius:30px;
+    height:50px;
+}
+#kyc-form #kycForm{
+   
+    border:1px solid rgb(232, 228, 228);
+    border-radius:20px;
+    border-bottom:3px solid green !important;
+    border-top:3px solid green !important;
+}
+#kyc-form .agree-info{
+    font-size:13px;
+    font-weight: 400;
+}
+#kyc-form .kyc-submit-bnt button{
+background-color: rgb(30, 130, 30);
+border-radius:20px;
+width:120px;
+color:white;
+}
+

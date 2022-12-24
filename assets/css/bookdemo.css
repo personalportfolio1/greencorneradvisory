@@ -58,7 +58,7 @@ color:rgb(27, 135, 27);
 
 
 
-#submit-btn button {
+#form-submit-btn button {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -75,12 +75,12 @@ color:rgb(27, 135, 27);
     border: 3px solid transparent;
     border-color: #fff transparent transparent transparent;
 }
-#submit-btn button:hover{
+#form-submit-btn button:hover{
     background-color: #3a9f3b;
     color:white;
     box-shadow:2px 2px 2px 1px green;
 }
-#submit-btn button span:nth-child(1) {
+#form-submit-btn button span:nth-child(1) {
   
     top: 0;
     left: -100%;
@@ -89,7 +89,7 @@ color:rgb(27, 135, 27);
     background: linear-gradient(90deg, transparent, #3a9f3b);
     animation: btn-anim1 2s linear infinite;
 }
-#submit-btn button span:nth-child(2) {
+#form-submit-btn button span:nth-child(2) {
     /* width: 100%;
     height: 2px;
     border:1px solid red; */
@@ -101,7 +101,7 @@ color:rgb(27, 135, 27);
     animation: btn-anim2 2s linear infinite;
     animation-delay: .50s;
 }
-#submit-btn button span:nth-child(3) {
+#form-submit-btn button span:nth-child(3) {
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -113,7 +113,7 @@ color:rgb(27, 135, 27);
     height: 2px;
     border:1px solid red; */
 }
-#submit-btn button span:nth-child(4) {
+#form-submit-btn button span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
@@ -125,7 +125,7 @@ color:rgb(27, 135, 27);
     height: 2px;
     border:1px solid red; */
 }
-#submit-btn  button span {
+#form-submit-btn  button span {
     position: absolute;
     display: block;
 }

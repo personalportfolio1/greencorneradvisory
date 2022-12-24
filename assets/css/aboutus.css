@@ -8,6 +8,9 @@
     top:40%;
     left:40%;
 }
+.breadcrumbsection .breadcrumb li a{
+    font-size:20px;
+}
 /* aboutus start */
 #aboutus .info p{
     font-size:14px;
@@ -32,10 +35,17 @@ transition:all 0.7s ease-in-out;
 }
 
 /* about-company end*/
-/* @media screen and (max-width:768px)
+/* @media screen and (max-width:576px)
 {
+    .banner-image{
+        position: relative;
+    }
     .breadcrumbsection{
-        top:5%;
-        left:40%;
+        position:absolute;
+        top:50% ! important;
+        left:10%;
+    }
+    .breadcrumbsection .breadcrumb li a{
+        font-size:10px;
     }
 } */

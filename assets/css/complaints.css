@@ -1,0 +1,32 @@
+h3{
+    position:relative;
+}
+ h3:after{
+content:"";
+display: block;
+position: absolute;
+background: rgb(18, 131, 18);
+width:4rem;
+height:0.2rem;
+left:calc(50% - 20px);
+bottom:-10px;
+
+}
+thead th{
+    font-size:13px;
+    color:white;
+    font-weight: 400;
+}
+.complaint-table,.form-start{
+    padding:30px 0px;
+}
+.form-start .forms{
+border-top:3px solid green;
+border-bottom:3px solid green;
+
+
+}
+.form-start .forms input{
+    border-radius:20px;
+    height:3rem ! important;
+}

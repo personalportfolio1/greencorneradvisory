@@ -26,7 +26,7 @@
                 <a href="index.php">Home</a>
             </li>
             <li class="breadcrumb-item">
-                <a href="product.php.php">Contact</a>
+                <a href="product.php">Contact</a>
             </li>
         </ul>
     </div>

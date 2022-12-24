@@ -9,6 +9,7 @@
     <?php
    include 'Includes/bootstraplink.php';
    ?>
+
 </head>
 
 <body>
@@ -40,7 +41,7 @@
         <div class="row  mt-lg-0 mt-md-5">
             <div class="col-12 mx-auto">
                 <div class="row">
-                    <div class="col-lg-6 col-md-12 ">
+                    <div class="col-lg-6 col-md-12   ">
                         <div class="card ">
                             <div class="card-image">
                                 <img src="assets/images/aboutus.png" class="img-fluid ">
@@ -55,7 +56,7 @@
                             <div class="about-us">
                                 <h4 class="text-uppercase fw-bold pb-2">About Us</h4>
                             </div>
-                            <div class="info">
+                            <div class="info" >
                                 <p>
                                     Green Corner Advisory is the symbol of trust, prosperity and courage. We enable
                                     scalable growth by
@@ -119,14 +120,11 @@
                         <div class="WHYUS">
                             <h2>WHY US</h2>
                         </div>
-                        <div class="line text-center"
-                            style="width:80px;border-bottom:1px solid green;margin-left:30px;"></div>
-                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 col-lg-4 pt-5">
-                    <div class="card card-whyus p-4 bg-light">
+                    <div class="card card-whyus p-4 bg-light" data-bs-aos="fade-up">
                         <div class="icon text-center text-success">
                             <i class="fa-regular fa-user p-3"></i>
                         </div>
@@ -137,7 +135,7 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 pt-5">
-                    <div class="card card-whyus p-4   bg-light">
+                    <div class="card card-whyus p-4   bg-light" data-bs-aos="fade-up">
                         <div class="icon text-center text-success ">
                             <i class="fa-solid fa-chart-simple p-3"></i>
                         </div>
@@ -150,7 +148,7 @@
                     </div>
                 </div>
                 <div class="  col-md-12 col-lg-4 pt-5">
-                    <div class="card card-whyus p-4 bg-light">
+                    <div class="card card-whyus p-4 bg-light" data-bs-aos="zoom-in">
                         <div class="icon text-center text-success ">
                             <i class="fa-solid fa-brain p-3"></i>
                         </div>
@@ -170,24 +168,23 @@
         <div class="container">
             <div class="row">
                 <div class="who-is d-flex justify-content-center">
-                    <div class="whois">
+                    <div class="whois ">
                         <div class="who-is">
                             <h5 class="text-success text-center">Who is</h5>
                         </div>
                         <div class="Whoisthisfor">
                             <h3>WHO IS THIS FOR</h3>
                         </div>
-                        <div class="line2" style="border-bottom:1px solid green;width:60px;margin-left:85px;"></div>
                     </div>
                 </div>
             </div>
-            <div class="row p-5">
-                <div class="col-lg-4 col-md-12 ">
-                    <div class="image">
+            <div class="row p-5  ">
+                <div class="col-lg-4 col-md-12 d-flex align-items-stretch  ">
+                    <div class="image ">
                         <img src="assets/images/graph.jpg" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-12 mt-lg-0 mt-5">
+                <div class="col-lg-8 col-md-12 mt-lg-0 mt-5  d-flex align-items-stretch ">
                     <div class="who-is-list p-5">
                         <ul>
                             <li>Clients seeking low risk on their investment made.</li>
@@ -212,9 +209,8 @@
                             <h5 class="text-success fw-bold">Offer</h5>
                         </div>
                         <div class="what-offer">
-                            <h4 class="tect-capitalize"> What we offer</h4>
+                            <h2 class="tect-capitalize"> What we offer</h2>
                         </div>
-                        <div class="lin3" style="border-bottom:1px solid green;width:90px;margin-left:40px;">
                         </div>
                     </div>
                 </div>
@@ -351,7 +347,8 @@
 
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"> </script>
-</body> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"> </script>-->
+    <!-- aos js file -->
+</body>
 
 </html>

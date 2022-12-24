@@ -1,6 +1,6 @@
 <!-- tophead start -->
 <header>
-        <div class="tophead  ">
+        <div class="tophead ">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10  mx-auto bg-light" id="tophead">
@@ -87,13 +87,13 @@
                         </a>
                         <div class="items">
                             <div class="dropdown-menu  bg-light ">
-                                <a href="" class="dropdown-item fs-6">Services</a>
-                                <a href="" class="dropdown-item fs-6">KYC Form</a>
-                                <a href="" class="dropdown-item fs-6">RPM</a>
-                                <a href="" class="dropdown-item fs-6">Complaints</a>
-                                <a href="" class="dropdown-item fs-6">Bank details</a>
-                                <a href="" class="dropdown-item fs-6">Careers</a>
-                                <a href="" class="dropdown-item fs-6">FAQs</a>
+                                <a href="service.php" class="dropdown-item fs-6">Services</a>
+                                <a href="kycform.php" class="dropdown-item fs-6">KYC Form</a>
+                                <a href="rpm.php" class="dropdown-item fs-6">RPM</a>
+                                <a href="complaints.php" class="dropdown-item fs-6">Complaints</a>
+                                <a href="bank-details.php" class="dropdown-item fs-6">Bank details</a>
+                                <a href="careers.php" class="dropdown-item fs-6">Careers</a>
+                                <a href="faq.php" class="dropdown-item fs-6">FAQs</a>
                             </div>
                         </div>
                     </li>
@@ -199,7 +199,7 @@
                                         customers or prospects to any third party.</p><span>
                         </div>
                     </div>
-                    <div class="footer" id="submit-btn">
+                    <div class="footer" id="form-submit-btn ">
                     <button class="btn btn-light m-3 ">
                         <span></span>
                         <span></span>

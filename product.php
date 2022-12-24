@@ -33,7 +33,7 @@
                 <a href="index.php">Home</a>
             </li>
             <li class="breadcrumb-item">
-                <a href="product.php.php">Product</a>
+                <a href="product.php">Product</a>
             </li>
         </ul>
     </div>
@@ -47,21 +47,21 @@
             </div>
             <!-- <div class="container bg-white shadow"> -->
             <div class="row shadow bg-white pt-3" id="product-tabs">
-                <ul class="nav nav-tabs d-flex justify-content-lg-evenly  py-3">
-                    <li class="nav-item">
-                        <button href="#enquity" class="nav-link  text-secondary fw-bold fs-4 fs-sm-1"
+                <ul class="nav nav-tabs d-flex justify-content-evenly   py-3">
+                    <li class="nav-item tabsss">
+                        <button href="#enquity" class="nav-link  text-secondary fw-bold "
                             data-bs-toggle="tab">Enquity</button>
                     </li>
                     <li class="nav-item">
-                        <button href="#mcx" class="nav-link text-secondary fw-bold  fs-4 fs-sm-1"
+                        <button href="#mcx" class="nav-link text-secondary fw-bold  "
                             data-bs-toggle="tab">MCX</button>
                     </li>
                     <li class="nav-item">
-                        <button href="#index" class="nav-link text-secondary fw-bold  fs-4 fs-sm-1"
+                        <button href="#index" class="nav-link text-secondary fw-bold  "
                             data-bs-toggle="tab">INDEX</button>
                     </li>
                     <li class="nav-item">
-                        <button href="#deliverer" class="nav-link text-secondary fw-bold fs-4 fs-sm-1"
+                        <button href="#deliverer" class="nav-link text-secondary fw-bold "
                             data-bs-toggle="tab">DELIVERER</button>
                     </li>
                 </ul>
@@ -88,7 +88,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col--lg-10 col-sm-12 bg-white shadow p-3" id="enquity-info">
+                            <div class="col-lg-10 col-sm-12 bg-white shadow p-3" id="enquity-info">
                                 <div class="row">
                                     <div class="col-lg-4 col-sm-12 mb-lg-0 mb-5">
                                         <div class="card text-center py-3 position-relative">

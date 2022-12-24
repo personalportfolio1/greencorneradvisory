@@ -7,9 +7,8 @@
                             <h5 class="text-success fw-bold">Work</h5>
                         </div>
                         <div class="how-to-work">
-                            <h4 class="tect-capitalize"> How It Works</h4>
+                            <h2 class="tect-capitalize"> How It Works</h2>
                         </div>
-                        <div class="line4" style="border-bottom:1px solid green;width:90px;margin-left:40px;">
                         </div>
                     </div>
                 </div>
@@ -25,7 +24,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-12  mb-lg-0 mb-5 d-flex align-items-stretch">
+                <div class="col-lg-3 col-md-6  mb-lg-0 mb-5 d-flex align-items-stretch">
                     <div class="work text-center p-4">
                         <div class="icon pt-2">
                             <i class="fa-solid fa-headset"></i>
@@ -35,7 +34,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-12 mb-lg-0 mb-5 d-flex align-items-stretch ">
+                <div class="col-lg-3 col-md-6   mb-lg-0 mb-5 d-flex align-items-stretch ">
                     <div class="work text-center    p-4">
                         <div class="icon pt-2">
                             <i class="fa-solid fa-chart-pie"></i>
@@ -45,7 +44,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-12 mb-lg-0 mb-5 d-flex align-items-stretch">
+                <div class="col-lg-3 col-md-6   mb-lg-0 mb-5 d-flex align-items-stretch">
                     <div class="work text-center    p-4">
                         <div class="icon py-2">
                             <i class="fa-solid fa-box"></i>

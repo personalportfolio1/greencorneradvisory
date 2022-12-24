@@ -19,7 +19,9 @@
     <!--Tophead section end-->
 
     <!-- banner start -->
+    <div class="banner-image">
     <img src="assets/images/aboutbanner.jpg" class="img-fluid">
+    </div>
     <!-- banner end -->
 
     <!-- breadcrumb start -->

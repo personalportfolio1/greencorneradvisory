@@ -94,31 +94,31 @@
             </div>
             <div class="row">
                 <div class="first text-center">
-                    <h2 class="pt-4">1</h2>
+                    <h1 class="pt-4">1</h1>
                     <p>Always invest with a margin of safety</p>
                 </div>
                 <div class="first text-center">
-                    <h2>2</h2>
+                    <h1>2</h1>
                     <p>Expect volatility and Profit from it</p>
                 </div>
                 <div class="first text-center">
-                    <h2>3</h2>
+                    <h1>3</h1>
                     <p>Know what kind of investor you are</p>
                 </div>
                 <div class="first text-center">
-                    <h2>4</h2>
+                    <h1>4</h1>
                     <p>Use equal risk and reward in each trade</p>
                 </div>
                 <div class="first text-center">
-                    <h2>5</h2>
+                    <h1>5</h1>
                     <p>Strictly follow stop loss levels</p>
                 </div>
                 <div class="first text-center">
-                    <h2>6</h2>
+                    <h1>6</h1>
                     <p>Strictly follow the levels provided in each signal</p>
                 </div>
                 <div class="first text-center">
-                    <h2>7</h2>
+                    <h1>7</h1>
                     <p>Keep patience while investing in stock market</p>
                 </div>
             </div>

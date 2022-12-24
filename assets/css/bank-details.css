@@ -1,0 +1,42 @@
+.bank-details p{
+    font-size:22px;
+    font-weight: 400;
+    letter-spacing: 0.013rem;
+}
+.bank-details img{
+    border-radius:20px;
+    transition:all 0.8s ease-out;
+}
+
+.bank-details .image-description{
+    background-color: rgb(235, 213, 213);
+    padding:10px;
+    border-radius:10px;
+        border-bottom:3px soilid white;
+        transition:all 0.9s ease-out;
+    }
+    .bank-details .bob{
+        background-color: rgb(235, 213, 213);
+        padding:32px;
+        border-radius:10px;
+            border-bottom:3px soilid white;
+            transition:all 0.9s ease-out;
+        }
+.bank-details .image-description:hover,
+.bank-details .bob:hover,.bank-details img:hover{
+    transform:translateY(-10px);
+    border-bottom:3px solid green ;
+    cursor:pointer;
+}
+.bank-details .image-description ul li,
+.bank-details .bob ul li{
+    font-size: 1.271rem;
+    font-weight:400;
+    line-height: 1.823rem;
+    
+}
+/* .bank-details img{
+    min-height:170px;
+    min-width:250px;
+    
+} */

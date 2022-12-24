@@ -1,0 +1,16 @@
+#faq{
+    padding:40px 0px;
+}
+h2{
+    position: relative;
+}
+h2:after{
+    content:"";
+position: absolute;
+display: block;
+background: green;
+left:calc(50% - 30px);
+height:5px;
+width:4rem;
+bottom:-10px;
+}
